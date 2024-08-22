@@ -43,12 +43,16 @@ flutter:
     platforms:
       android:
         default_package: flutter_inappwebview_android
+        path: ../flutter_inappwebview_android
       ios:
         default_package: flutter_inappwebview_ios
+        path: ../flutter_inappwebview_ios
       macos:
         default_package: flutter_inappwebview_macos
+        path: ../flutter_inappwebview_macos
       web:
         default_package: flutter_inappwebview_web
+        path: ../flutter_inappwebview_web
 
   assets:
     - packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html
